@@ -55,7 +55,7 @@ class Solution3_1 {
     }
 }
 
-// 滑动窗口: 窗口通常是在数组/字符串中由开始和结束索引定义的一系列元素的集合，即 [i, j)（左闭，右开）。
+// 滑动窗口算法
 class Solution3_2 {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
@@ -74,7 +74,7 @@ class Solution3_2 {
     }
 }
 
-// 优化的滑动窗口
+// 优化的滑动窗口算法
 class Solution3_3 {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
